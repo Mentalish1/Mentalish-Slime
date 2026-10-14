@@ -1,0 +1,23 @@
+{
+  "name": "Mentalish1.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mentalish1/Mentalish1.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mentalish1/Mentalish1.github.io/issues"
+  },
+  "homepage": "https://github.com/Mentalish1/Mentalish1.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
