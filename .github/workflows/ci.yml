@@ -54,7 +54,7 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           # Change './dist' or '.' to your project's built output folder
-          path: './dist'
+          path: './_site'
 
   deploy:
     needs: upload-artifact
