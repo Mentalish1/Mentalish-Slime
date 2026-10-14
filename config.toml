@@ -2,7 +2,7 @@
   [module.hugoVersion]
     min = "0.120.0"
     
-baseURL = "https://github.io"
+baseURL = "https://mentalish1.github.io/Mentalish-Slime/"
 locale = "en-US"
 title = "TEST"
 theme = "vintage-web-hugo-theme"
