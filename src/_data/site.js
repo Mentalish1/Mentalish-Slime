@@ -6,15 +6,15 @@ const inferredDeployUrl =
   process.env.CF_PAGES_URL ||
   (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null);
 
-const siteUrl = inferredDeployUrl || "https://retro-garden-eleventy-theme.vercel.app";
+const siteUrl = inferredDeployUrl || "http://www.mentalish.fyi/";
 const tinylyticsId = process.env.TINYLYTICS_ID || "";
 const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "";
 const pingbackEndpoint = process.env.PINGBACK_ENDPOINT || "";
 const webmentionApi = process.env.WEBMENTION_API || "";
 
 export default {
-  title: "Retro Garden",
-  description: "Retro Garden is an open source Eleventy theme that blends IndieWeb publishing habits with bright, hand-made early-web energy.",
+  title: "Mentalish Test",
+  description: "Hi Hello - Alizard",
   url: siteUrl,
   language: "en",
   locale: "en_US",
