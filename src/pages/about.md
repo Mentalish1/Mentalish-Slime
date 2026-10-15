@@ -9,12 +9,11 @@ permalink: /about/
 
 Welcome to my little corner of the internet! I'm **{{ site.author.name }}**, and this is my personal website where I share my thoughts, projects, and whatever else strikes my fancy.
 
-
 ### 📫 Other webpages
 
 Check out my other cool stuff. 
 
-{% endif %}{% if site.social.Printables %}- **Printables:** [{{ site.social.Printables }}]({{ site.social.Printables }})
+{% if site.social.Printables %}- **Printables:** [{{ site.social.Printables }}]({{ site.social.Printables }})
 {% endif %}
 
 ### 🔗 Link to Me!
