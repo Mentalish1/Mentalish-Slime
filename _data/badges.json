@@ -24,25 +24,19 @@
       ]
     },
     {
-      "name": "Web Standards",
+      "name": "Technology",
       "badges": [
         {
-          "title": "Valid HTML",
-          "image": "/images/badges/valid-html.gif",
-          "url": "https://validator.w3.org/",
-          "alt": "Valid HTML"
+          "title": "Steam",
+          "image": "/images/badges/etc/steam.gif",
+          "url": "https://store.steampowered.com/",
+          "alt": "Steam Store"
         },
         {
           "title": "Valid CSS",
-          "image": "/images/badges/valid-css.gif",
-          "url": "https://jigsaw.w3.org/css-validator/",
+          "image": "/images/badges/etc/amd_powered.gif",
+          "url": "https://www.amd.com/en.html",
           "alt": "Valid CSS"
-        },
-        {
-          "title": "RSS Feed",
-          "image": "/images/badges/rss.gif",
-          "url": "/feed.xml",
-          "alt": "RSS Feed Available"
         }
       ]
     },
@@ -50,27 +44,10 @@
       "name": "IndieWeb",
       "badges": [
         {
-          "title": "IndieWeb",
-          "image": "/images/badges/indieweb.gif",
-          "url": "https://indieweb.org/",
-          "alt": "IndieWeb"
-        },
-        {
-          "title": "Webmentions",
-          "image": "/images/badges/webmention.gif",
-          "url": "https://webmention.io/",
-          "alt": "Webmentions Enabled"
-        }
-      ]
-    },
-    {
-      "name": "Creative Commons",
-      "badges": [
-        {
-          "title": "Creative Commons",
-          "image": "/images/badges/cc.gif",
-          "url": "https://creativecommons.org/",
-          "alt": "Creative Commons Licensed"
+          "title": "PolyRing",
+          "image": "/images/badges/etc/000010.gif",
+          "url": "https://polyring.club/",
+          "alt": "PolyRing"
         }
       ]
     },

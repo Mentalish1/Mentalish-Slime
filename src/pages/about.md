@@ -10,12 +10,10 @@ permalink: /about/
 Welcome to my little corner of the internet! I'm **{{ site.author.name }}**, and this is my personal website where I share my thoughts, projects, and whatever else strikes my fancy.
 
 
-### 📫 Get In Touch
+### 📫 Other webpages
 
-Want to connect? Here's how you can reach me:
+Check out my other cool stuff. 
 
-- **Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
-{% if site.social.github %}- **GitHub:** [@{{ site.social.github }}](https://github.com/{{ site.social.github }})
 {% endif %}{% if site.social.Printables %}- **Printables:** [{{ site.social.Printables }}]({{ site.social.Printables }})
 {% endif %}
 
