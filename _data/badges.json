@@ -16,10 +16,10 @@
           "alt": "Panda Shell Hole"
         },
         {
-          "title": "Any Browser",
-          "image": "/images/badges/anybrowser.gif",
+          "title": "Pollygeist",
+          "image": "https://pollygeist.com/",
           "url": "",
-          "alt": "Viewable With Any Browser"
+          "alt": "https://pollygeist.com/"
         }
       ]
     },

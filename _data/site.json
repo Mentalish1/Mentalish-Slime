@@ -1,13 +1,13 @@
 {
-  "title": "Retroweird",
-  "description": "A maximalist retro blog theme for Eleventy - Make the web weird again!",
+  "title": "Mental's Corner of the Web.",
+  "description": "A Slime Man browsing the world wide web!",
   "url": "https://mentalish.fyi",
   "author": {
     "name": "Mentalish",
     "email": "Wouldn't you like to know. ",
-    "url": "https://brennanbrown.ca",
+    "url": "https://mentalish.fyi",
     "bio": "Slime Dude, Sewing and gaming",
-    "avatar": "/images/AvatarMent.png",
+    "avatar": "/images/Slimey_Duck_Logo.png",
     "location": "The Internet",
     "mood": "nostalgic",
     "icqNumber": "123-456-789"
@@ -18,7 +18,7 @@
     "blogroll": true,
     "webring": true,
     "badgeWall": true,
-    "visitorCounter": true,
+    "visitorCounter": false,
     "nowPlaying": true,
     "adSpace": true,
     "updates": true,
