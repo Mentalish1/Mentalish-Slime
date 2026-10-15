@@ -20,8 +20,6 @@ With the help of my good friend ALizard, I am setting up my own website!
 - [Neolanders](https://www.theneolanders.com/) - A Cool group of individuals 
 - [My Bluesky](https://bsky.app/profile/mentalish.theneolanders.com)
 
-Let's make the web weird again! 🌈✨
 
 ---
 
-**P.S.** - Don't forget to sign my [guestbook](/guestbook/)! Let me know what you think of the site!
