@@ -1,5 +1,5 @@
 {
-  "title": "Mental's Corner of the Web.",
+  "title": "Mental's Corner of the Web",
   "description": "A Slime Man browsing the world wide web!",
   "url": "https://mentalish.fyi",
   "author": {
@@ -9,18 +9,17 @@
     "bio": "I'm just a Slime Dude!",
     "avatar": "/images/Slimey_Duck_Logo.png",
     "location": "The Internet",
-    "mood": "nostalgic",
-    "icqNumber": "123-456-789"
+    "mood": "nostalgic"
   },
   "theme": "myspace",
   "modules": {
-    "guestbook": true,
+    "guestbook": false,
     "blogroll": true,
-    "webring": true,
+    "webring": false,
     "badgeWall": true,
     "visitorCounter": false,
-    "nowPlaying": true,
-    "adSpace": true,
+    "nowPlaying": false,
+    "adSpace": false,
     "updates": true,
     "aboutMe": true,
     "musicPlayer": true,
@@ -49,6 +48,6 @@
     "enabled": true,
     "style": "led"
   },
-  "marqueeText": "✨ Welcome to my homepage! ✨ Under construction! ✨ Sign my guestbook! ✨",
-  "buildTime": "2025-10-01"
+  "marqueeText": "✨ Welcome to my homepage! ✨ Under construction! ✨",
+  "buildTime": "2026-10-14"
 }

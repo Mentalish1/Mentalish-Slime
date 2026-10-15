@@ -27,19 +27,11 @@ The best way to reach me is via email:
 
 ### 💬 Other Ways to Connect
 
-- **Sign my [Guestbook](/guestbook/)** - Leave a public message!
 - **Link Exchange** - Want to exchange links? Drop me an email!
 - **Collaborate** - Have a cool project idea? Let's talk!
 
-### 📝 What Can I Help With?
+### 📝 WIP?
 
-I'm happy to chat about:
-- Web design and development
-- Retro/vintage web aesthetics
-- The IndieWeb movement
-- Static site generators (especially Eleventy!)
-- Creative personal websites
-- Anything related to making the web weird again!
 
 ---
 
@@ -47,4 +39,3 @@ I'm happy to chat about:
   <img src="/images/email-icon.gif" alt="Email" style="max-width: 200px;" onerror="this.style.display='none'">
 </div>
 
-**I typically respond within 1-2 days. Looking forward to hearing from you! 🌟**

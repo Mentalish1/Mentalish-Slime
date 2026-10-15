@@ -1,7 +1,7 @@
 ---
 title: My first post!
 description: Testing out posts and templates
-date: 2025-10-01
+date: 2026-10-14
 tags: 
   - Post
   - Tech
