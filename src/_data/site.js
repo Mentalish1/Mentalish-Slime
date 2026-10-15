@@ -13,13 +13,13 @@ const pingbackEndpoint = process.env.PINGBACK_ENDPOINT || "";
 const webmentionApi = process.env.WEBMENTION_API || "";
 
 export default {
-  title: "Mentalish Test",
+  title: "Mental's Corner of the Internet.'",
   description: "Hi Hello - Alizard",
   url: siteUrl,
   language: "en",
   locale: "en_US",
   defaultPalette: "system",
-  tagline: "Dial-up soul, garden-path links, modern static bones.",
+  tagline: "A Slime man exploring the World Wide Web.",
   heroLead:
     "Build a **small web home** with responsive images, static search, RSS, WebC components, OG cards, IndieWeb hooks, and accessible defaults without sanding off the weird edges that make personal sites memorable.",
   features: {
@@ -43,7 +43,7 @@ export default {
     relMe: ["https://github.com/kylereddoch"]
   },
   author: {
-    name: "Your Name",
+    name: "Mentalish",
     email: "hello@example.com",
     url: siteUrl,
     summary:
@@ -60,11 +60,11 @@ export default {
   ],
   marquee: "Search indexed :: responsive images online :: webmentions ready :: RSS flowing :: accessible by default",
   badges: [
-    { label: "RSS FEED", url: "/feed.xml", accent: "ember" },
+    { label: "RSS FEED", url: "/feed.xml", accent: "midnight" },
     { label: "SEARCH", url: "/search/", accent: "midnight", feature: "search" },
-    { label: "STYLE GUIDE", url: "/style-guide/", accent: "surf" },
-    { label: "CUSTOMIZE", url: "/customize/", accent: "mint" },
-    { label: "TAG CLOUD", url: "/tags/", accent: "ember" }
+    { label: "STYLE GUIDE", url: "/style-guide/", accent: "midnight" },
+    { label: "CUSTOMIZE", url: "/customize/", accent: "midnight" },
+    { label: "TAG CLOUD", url: "/tags/", accent: "midnight"}
   ],
   examplePages: [
     {
