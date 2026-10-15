@@ -1,3 +1,0 @@
-<div webc:root class="marquee-shell" role="note" aria-label="Neighborhood status line">
-  <p class="marquee-copy"><slot></slot></p>
-</div>

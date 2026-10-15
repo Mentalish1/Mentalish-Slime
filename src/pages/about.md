@@ -1,0 +1,40 @@
+---
+layout: layouts/page.njk
+title: About Me
+description: Learn more about me and this website
+permalink: /about/
+---
+
+## 👋 Hey There!
+
+Welcome to my little corner of the internet! I'm **{{ site.author.name }}**, and this is my personal website where I share my thoughts, projects, and whatever else strikes my fancy.
+
+
+### 📫 Get In Touch
+
+Want to connect? Here's how you can reach me:
+
+- **Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
+{% if site.social.github %}- **GitHub:** [@{{ site.social.github }}](https://github.com/{{ site.social.github }})
+{% endif %}{% if site.social.Printables %}- **Printables:** [{{ site.social.Printables }}]({{ site.social.Printables }})
+{% endif %}
+
+### 🔗 Link to Me!
+
+Want to add my site to your links page? Use this badge:
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="{{ badges.myBadge.image }}" alt="{{ site.title }}" width="88" height="31" onerror="this.alt='Badge coming soon!'">
+</div>
+
+```html
+{{ badges.myBadge.code }}
+```
+
+### 🤝 Credits & Inspiration
+
+WIP
+
+---
+
+**"Make the web weird again!" 🌈✨💫**

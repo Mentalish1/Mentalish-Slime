@@ -1,155 +1,503 @@
-# Retro Garden
+# 🌈 Retroweird Blog Theme 🌈
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f.svg)](./LICENSE)
-[![Eleventy 3](https://img.shields.io/badge/11ty-3.x-222222?logo=eleventy&logoColor=white)](https://www.11ty.dev/)
-[![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4.x-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Accessibility: Pa11y CI](https://img.shields.io/badge/a11y-pa11y--ci-0f766e.svg)](https://pa11y.org/)
-[![Deploy: Static Host Ready](https://img.shields.io/badge/deploy-static_host_ready-f97316.svg)](https://www.11ty.dev/docs/deployment/)
+> **Make the web weird again!**
 
-Retro Garden is an open source Eleventy theme for personal sites that want IndieWeb publishing habits and early-web personality without giving up modern tooling. It mixes WebC components, private static search, responsive images, pagination, RSS, OG image generation, optional webmentions, and accessible defaults into one hand-made starter.
+A maximalist, customizable blog theme for [Eleventy](https://www.11ty.dev/) inspired by GeoCities, MySpace, and the creative chaos of 1990s-2000s personal homepages.
 
-## Demo
+Created by [Brennan Kenneth Brown](https://brennanbrown.ca) | A [🍓 Berry House](https://berryhouse.ca) project
 
-- Production demo: [https://retro-garden-eleventy-theme.vercel.app](https://retro-garden-eleventy-theme.vercel.app)
-- Local development: <http://127.0.0.1:8080>
-- Release history: [CHANGELOG.md](./CHANGELOG.md)
+![Version](https://img.shields.io/badge/version-1.0.0-ff00ff)
+![Eleventy](https://img.shields.io/badge/eleventy-2.0+-00ffff)
+![License](https://img.shields.io/badge/license-MIT-ffff00)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-BADGE-ID/deploy-status)](https://app.netlify.com/sites/retroweird/deploys)
 
-`src/_data/site.js` will use `SITE_URL` when you provide it and can also infer common preview URLs on Vercel, Netlify, and Cloudflare Pages. The production default is `https://retro-garden-eleventy-theme.vercel.app`, so swap that if you deploy under a different hostname.
+## ✨ Features
 
-## Features
+- 🎨 **6 Pre-built Themes** - Default, Vaporwave, GeoCities, MySpace, Brutalist, Academia
+- 🧩 **Modular Widget System** - Easy to customize sidebar components
+- 🏆 **88x31 Badge Wall** - Display your web button collection
+- 🎨 **Badge Generator** - Create custom 88x31 badges with live preview
+- 📖 **Guestbook** - Let visitors leave messages
+- 🔗 **Blogroll** - Curated links with random link button
+- 💫 **Webring Support** - Connect with other sites
+- 🎵 **Now Playing Widget** - Share what you're listening to
+- 🎵 **Music Player** - Background music with volume control
+- ✨ **Custom Cursors** - 6 different cursor trail effects
+- 📊 **Visitor Counter** - Retro LED-style hit counter
+- 📡 **RSS Feed** - Full Atom feed for blog posts
+- 🚫 **Custom 404 Page** - Fun error page with easter eggs
+- 🌐 **IndieWeb Ready** - Microformats2, RSS, Webmentions support
+- ♿ **Accessible** - Despite the retro aesthetic, still screen-reader friendly
+- 🚀 **No JavaScript Required** - Progressive enhancement only
+- 📱 **Responsive** - Works on all devices (yes, even mobile!)
 
-- Eleventy 3.1 with Windows, macOS, and Linux-friendly scripts
-- Eleventy Fetch for friendly remote-data caching
-- Eleventy Image for responsive AVIF, WebP, and original image output
-- Pagefind static search with no hosted service or search analytics
-- Build-time OG image generation
-- Nunjucks shortcodes and markdown-first authoring
-- Accessible defaults with multi-page Pa11y and HTML validation
-- Tailwind CSS 4 plus custom retro component styles
-- RSS and JSON feeds, sitemap, robots file, web manifest, and themed 404 page
-- Eleventy WebC components and is-land progressive enhancement
-- Journal pagination, read time, tag archives, breadcrumbs, and previous/next metadata
-- Official Eleventy syntax highlighting
-- Post share links with copy-to-clipboard support
-- Optional sidebars, share links, analytics, webmentions, and sample sections
-- Stronger IndieWeb author markup, `rel=me`, and configurable webmention endpoints
-- Ember, Surf, Mint, Midnight, and system-aware palette switching
+## 🚀 Quick Start
 
-## Quick Start
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
 
 ```bash
-git clone <your-repo-url> retro-garden
-cd retro-garden
+# Clone the repository
+git clone https://github.com/brennanbrown/retroweird.git
+cd retroweird
+
+# Install dependencies
 npm install
-npm run start
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
 ```
 
-Open <http://127.0.0.1:8080> to preview the theme locally.
+Your site will be available at `http://localhost:8080`
 
-## Available Scripts
+---
 
-- `npm run start` starts Eleventy in serve mode and Tailwind in watch mode
-- `npm run build` creates the production build in `_site/`
-- `npm run preview` serves an existing production build at <http://127.0.0.1:4173>
-- `npm run validate:html` checks generated HTML
-- `npm run validate:links` checks internal page and asset targets
-- `npm run audit:a11y` serves the build and audits representative pages with Pa11y
-- `npm run check` builds the theme and runs every validation step
+## 🚀 Deploying to Netlify
 
-## Configuration
+### One-Click Deploy
 
-Start with `src/_data/site.js`. It contains the site identity, author, navigation, palettes, social links, and a `features` object for search, responsive images, social cards, breadcrumbs, post sidebars, share links, sample content, analytics, and webmentions.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/brennanbrown/retroweird)
 
-Supported environment variables:
+### Manual Deployment
 
-- `SITE_URL`: canonical production URL
-- `TINYLYTICS_ID`: enables the optional Tinylytics script; empty by default
-- `WEBMENTION_ENDPOINT`: endpoint advertised by published pages
-- `PINGBACK_ENDPOINT`: optional pingback endpoint
-- `WEBMENTION_API`: JSON endpoint used to retrieve webmentions at build time
+1. **Push your site to GitHub**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin https://github.com/yourusername/your-repo.git
+   git push -u origin main
+   ```
 
-Analytics and webmentions are off in a fresh clone. Pagefind search runs entirely from the generated static files.
+2. **Connect to Netlify**
+   - Go to [Netlify](https://netlify.com) and sign in
+   - Click "Add new site" → "Import an existing project"
+   - Choose GitHub and select your repository
 
-To process a local content image, add a normal Markdown or HTML `img` element. You can set `eleventy:widths="320,640,960"` and a `sizes` attribute when the default widths are not a good fit. Remote avatars and other images that should not be processed can use `eleventy:ignore`.
+3. **Configure build settings**
+   - **Build command**: `npm run build`
+   - **Publish directory**: `_site`
+   - **Node version**: 18 or higher
 
-## Using The Theme
+4. **Deploy!**
+   - Click "Deploy site"
+   - Your site will be live at `https://your-site-name.netlify.app`
 
-1. Update the site identity in `src/_data/site.js`.
-2. Replace the sample pages in `src/` and the demo posts in `src/posts/`.
-3. Choose Ember, Surf, Mint, Midnight, or system-aware mode as the default palette.
-4. Edit the layouts in `src/_includes/layouts/` to remove or expand theme features.
-5. Update social links, sponsor links, and author metadata before publishing.
+### Custom Domain (Optional)
 
-## Project Structure
+1. Go to Site settings → Domain management
+2. Click "Add custom domain"
+3. Follow the DNS configuration instructions
 
-- `src/_data/site.js` stores the main site identity, navigation, palettes, and social links
-- `src/_includes/layouts/base.njk` controls the shared shell, header, footer, and metadata
-- `src/_includes/layouts/page.njk` renders full-width pages with an optional sidebar
-- `src/_includes/layouts/post.njk` renders journal posts, share links, and the author panel
-- `src/_includes/partials/breadcrumbs.njk` renders Eleventy Navigation breadcrumbs
-- `src/_includes/partials/share-links.njk` contains the reusable share section
-- `src/_includes/partials/webmentions.njk` renders optional reactions and replies
-- `src/_includes/components/*.webc` contains the reusable WebC components
-- `src/assets/css/theme.css` holds the design tokens and component styling
-- `src/search.njk` contains the Pagefind component interface
-- `scripts/` contains cross-platform cleanup, preview, and internal-link checks
-- `src/style-guide.njk` shows palettes, UI patterns, and syntax-highlight examples
-- `vercel.json` is included as an optional Vercel preset for the generated `_site/` folder
+### Environment Variables (Optional)
 
-## Deployment
+If you need environment variables:
+- Go to Site settings → Build & deploy → Environment
+- Add your variables (e.g., API keys)
 
-Retro Garden is a static Eleventy theme, so it can be deployed anywhere that can run `npm run build` and publish the `_site/` folder.
+### ⚠️ About Images
 
-### General setup
+**The theme works perfectly without images** (they gracefully hide if missing), but to get the full retro experience, you'll want to add:
+- Background patterns
+- Divider graphics  
+- 88x31 badges
+- Animated GIFs
 
-1. Install dependencies with `npm install`
-2. Build the site with `npm run build`
-3. Publish the `_site/` directory on your host
-4. Set `SITE_URL` to your production domain so feeds, canonicals, and OG metadata use the correct URL
+**📖 See [docs/IMAGE-RESOURCES.md](docs/IMAGE-RESOURCES.md) for a complete guide** on where to find thousands of free retro graphics!
 
-### Common hosts
+## 📝 Customization
 
-- Vercel: `vercel.json` is already included. Set `SITE_URL` in project environment variables.
-- Netlify: build command `npm run build`, publish directory `_site`, and set `SITE_URL`.
-- Cloudflare Pages: build command `npm run build`, output directory `_site`, and set `SITE_URL`.
-- GitHub Pages or any other static host: run `npm run build` in CI and publish `_site/`.
+### Basic Configuration
 
-Preview deployments will render cleanly on common platforms because the theme can infer several host-provided preview URLs when `SITE_URL` is not set.
+Edit `_data/site.json` to customize your site:
 
-## Customization Notes
+```json
+{
+  "title": "My Radical Homepage",
+  "description": "Welcome to my corner of the web!",
+  "author": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "bio": "Your bio here"
+  },
+  "theme": "default",
+  "modules": {
+    "guestbook": true,
+    "blogroll": true,
+    "badgeWall": true
+  }
+}
+```
 
-- Pages are full width by default and only render a sidebar when you add `sidebarTitle` and `sidebar` in front matter.
-- Posts include a share row after the article body and before the author panel.
-- The palette picker in the header uses query-string links, so you can preview each palette on any route.
-- Production builds generate the Pagefind index after Eleventy finishes writing pages.
-- Local images are transformed during the build and keep intrinsic dimensions to reduce layout movement.
-- The style guide and sample posts intentionally show markdown, code fences, badges, and optional layout patterns.
+### Changing Themes
 
-## Sponsor
+Choose from 6 pre-built themes:
+- `default` - Classic GeoCities with rainbow gradients
+- `vaporwave` - A E S T H E T I C pink and cyan
+- `geocities` - Maximum 90s nostalgia
+- `myspace` - Early 2000s social media vibes
+- `brutalist` - Maximum visual chaos with neon colors
+- `academia` - 1990s university homepage style
 
-If Retro Garden helps you ship something fun, you can support its maintenance here. Replace the placeholder handles before publishing your own fork. GitHub's funding button can be configured in [.github/FUNDING.yml](./.github/FUNDING.yml).
+Just change the `theme` value in `site.json`!
 
-- GitHub Sponsors: [https://github.com/sponsors/kylereddoch](https://github.com/sponsors/kylereddoch)
-- Ko-fi: [https://ko-fi.com/kylereddoch](https://ko-fi.com/kylereddoch)
-- Buy Me a Coffee: [https://buymeacoffee.com/kylereddoch](https://buymeacoffee.com/kylereddoch)
+### Adding Content
 
-## Contributing
-
-Issues and pull requests are welcome. For changes that touch templates, styles, or build behavior, please run:
+#### Create a Blog Post
 
 ```bash
-npm run check
+# Create a new markdown file in src/posts/
+touch src/posts/my-new-post.md
 ```
 
-The included GitHub Actions workflow runs the same check on Node 22 under both Ubuntu and Windows. When contributing, try to preserve the balance between readable content surfaces, playful retro chrome, and accessible defaults.
+Add frontmatter:
 
-## Inspiration
+```yaml
+---
+title: My Post Title
+description: A short description
+date: 2025-10-01
+tags: [personal, coding]
+layout: layouts/post.njk
+mood: excited
+music: "Your Favorite Song"
+---
 
-- [zachleat.com](https://www.zachleat.com/)
-- [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent)
-- [Retroweird](https://github.com/brennanbrown/retroweird)
-- [11ty Indie Web Blog Starter](https://github.com/brennanbrown/11ty-Indie-Web-Blog-Starter)
+Your content here!
+```
 
-## License
+#### Create a Static Page
 
-MIT. See [LICENSE](./LICENSE).
+```bash
+# Create a new file in src/pages/
+touch src/pages/projects.md
+```
+
+Add frontmatter:
+
+```yaml
+---
+layout: layouts/page.njk
+title: My Projects
+permalink: /projects/
+---
+
+Your page content here!
+```
+
+### Customizing Widgets
+
+Enable/disable widgets in `_data/site.json`:
+
+```json
+{
+  "modules": {
+    "aboutMe": true,
+    "visitorCounter": true,
+    "nowPlaying": true,
+    "updates": true,
+    "webring": true,
+    "badgeWall": true,
+    "blogroll": true,
+    "adSpace": true
+  }
+}
+```
+
+### Managing Your Badge Collection
+
+Edit `_data/badges.json` to add your 88x31 buttons:
+
+```json
+{
+  "categories": [
+    {
+      "name": "Web Standards",
+      "badges": [
+        {
+          "title": "Valid HTML",
+          "image": "/images/badges/valid-html.gif",
+          "url": "https://validator.w3.org/",
+          "alt": "Valid HTML"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Creating a Blogroll
+
+Edit `_data/blogroll.json` to add your favorite sites:
+
+```json
+{
+  "categories": [
+    {
+      "name": "Cool Personal Sites",
+      "links": [
+        {
+          "title": "Friend's Site",
+          "url": "https://example.com",
+          "description": "My friend's awesome page",
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}
+```
+
+## 🎨 Themes
+
+### 1. Default Theme
+Classic GeoCities aesthetic with:
+- Rainbow gradient backgrounds
+- Hot pink, cyan, and yellow color scheme
+- Animated elements
+- Maximum nostalgia
+
+### 2. Vaporwave Theme
+A E S T H E T I C vibes with:
+- Pink (#FF71CE) and cyan (#01CDFE) colors
+- Neon glow effects
+- Grid backgrounds
+- Glitch animations
+
+### 3. GeoCities Theme
+Pure 1990s web with:
+- Comic Sans and bold colors
+- Under construction graphics
+- Beveled borders everywhere
+- Rainbow scrolling headers
+
+### 4. MySpace Theme
+Early 2000s social networking style:
+- Blue and orange color scheme
+- Profile-style layouts
+- Rounded corners
+- Clean but retro
+
+### 5. Brutalist Theme ⭐ NEW
+Maximum visual chaos featuring:
+- Neon colors (Red, Green, Blue, Yellow)
+- Overlapping elements with multiple shadows
+- Glitch and shake animations
+- Black background with neon text
+- All uppercase typography
+
+### 6. Academia Theme ⭐ NEW
+1990s university homepage style:
+- Gray (#C0C0C0) background
+- Times New Roman and Arial fonts
+- Minimal styling with simple borders
+- Professional, readable design
+- No animations for serious look
+
+## 🛠️ Advanced Customization
+
+### Creating Your Own Theme
+
+1. Create a new CSS file in `src/css/themes/`
+2. Define theme variables:
+
+```css
+.theme-mytheme {
+  --primary-color: #yourcolor;
+  --secondary-color: #yourcolor;
+  /* ... more variables */
+}
+```
+
+3. Add theme-specific styling
+4. Set `"theme": "mytheme"` in `site.json`
+
+### Adding Custom Components
+
+1. Create a new component in `src/_includes/components/`
+2. Include it in your layout or sidebar:
+
+```njk
+{% include "components/your-component.njk" %}
+```
+
+### Customizing Layouts
+
+Edit layouts in `src/_includes/layouts/`:
+- `base.njk` - Base HTML structure
+- `post.njk` - Blog post layout
+- `page.njk` - Static page layout
+
+## 📚 Documentation
+
+### Project Structure
+
+```
+retroweird/
+├── _data/              # Site configuration & data files
+│   ├── site.json
+│   ├── badges.json
+│   ├── blogroll.json
+│   ├── webring.json
+│   └── guestbook.json
+├── src/
+│   ├── _includes/
+│   │   ├── layouts/    # Page layouts
+│   │   └── components/ # Reusable components
+│   ├── posts/          # Blog posts (markdown)
+│   ├── pages/          # Static pages
+│   ├── css/
+│   │   ├── themes/     # Theme CSS files
+│   │   └── components/ # Component styles
+│   ├── js/             # JavaScript enhancements
+│   └── images/         # Images and graphics
+├── .eleventy.js        # Eleventy configuration
+└── package.json
+```
+
+### Available Filters
+
+- `readableDate` - Format dates nicely
+- `htmlDateString` - ISO date format
+- `limit` - Limit array length
+- `random` - Get random array item
+- `shuffle` - Shuffle an array
+
+### Shortcodes
+
+- `{% year %}` - Current year
+- `{% badge image, alt, url %}` - 88x31 badge
+- `{% marquee content %}` - Scrolling text
+
+## 🌐 Deployment
+
+### Neocities
+
+Perfect thematic match!
+
+```bash
+npm run build
+# Upload contents of _site/ to Neocities
+```
+
+### Netlify
+
+1. Connect your GitHub repo
+2. Build command: `npm run build`
+3. Publish directory: `_site`
+4. Deploy!
+
+### GitHub Pages
+
+1. Enable GitHub Pages in repo settings
+2. Set up GitHub Actions for automatic deployment
+3. Done!
+
+### Other Platforms
+
+The built site in `_site/` is just HTML/CSS/JS. Upload it anywhere!
+
+## ♿ Accessibility
+
+Despite the retro aesthetic, this theme is built with accessibility in mind:
+
+- ✅ Semantic HTML
+- ✅ ARIA labels
+- ✅ Keyboard navigation
+- ✅ Screen reader friendly
+- ✅ Alt text for images
+- ✅ Skip to content link
+- ✅ Respects `prefers-reduced-motion`
+- ✅ Sufficient color contrast (with accessible mode)
+
+### Accessible Mode
+
+Users can toggle accessible mode which:
+- Disables animations
+- Improves contrast
+- Adds focus indicators
+- Pauses marquees
+
+## 📚 Documentation
+
+**Essential Guides:**
+- **[Getting Started Guide](docs/GETTING-STARTED.md)** - Step-by-step setup tutorial
+- **[Image Resources](docs/IMAGE-RESOURCES.md)** - Where to find free retro graphics
+- **[Quick Reference](docs/QUICK-REFERENCE.md)** - Cheat sheet for common tasks
+
+**Additional Documentation:**
+- [CHANGELOG.md](CHANGELOG.md) - Version history and updates
+- [CONTRIBUTING.md](CONTRIBUTING.md) - How to contribute
+- [docs/PROJECT-SUMMARY.md](docs/PROJECT-SUMMARY.md) - Complete feature overview
+- [docs/PHASE-2-FEATURES.md](docs/PHASE-2-FEATURES.md) - Advanced features documentation
+
+## 🐛 Browser Support
+
+- ✅ Chrome/Edge (modern)
+- ✅ Firefox (modern)
+- ✅ Safari (modern)
+- ⚠️ Internet Explorer (graceful degradation)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+### Ideas for Contributions
+
+- New theme designs
+- Additional widgets/components
+- Documentation improvements
+- Bug fixes
+- Accessibility improvements
+
+## 📄 License
+
+This project uses a dual license:
+
+- **Code** (HTML, CSS, JavaScript, Eleventy configuration): [MIT License](LICENSE)
+- **Content** (Sample blog posts, documentation): [Public Domain (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Feel free to use this theme for your own site! Attribution is appreciated but not required.
+
+## 💖 Credits & Inspiration
+
+- **GeoCities** - RIP, you magnificent beast
+- **MySpace** - For teaching us all HTML
+- **Neocities** - Keeping the spirit alive
+- **IndieWeb** - For the community
+- **88x31.org** - Badge collections
+- **GifCities** - Animated GIF archives
+- **The Yesterweb** - Inspiration and resources
+
+## 🔗 Links
+
+- 🌐 [Demo Site](https://retroweird.netlify.app)
+- 💻 [GitHub Repository](https://github.com/brennanbrown/retroweird)
+- 👤 [Brennan's Portfolio](https://brennanbrown.ca)
+- 🍓 [Berry House](https://berryhouse.ca)
+- 📚 [Eleventy Documentation](https://www.11ty.dev/docs/)
+- 🌍 [Neocities](https://neocities.org)
+- 🕸️ [IndieWeb](https://indieweb.org)
+
+## 📬 Support
+
+- 🐛 [Report a bug](https://github.com/brennanbrown/retroweird/issues)
+- 💡 [Request a feature](https://github.com/brennanbrown/retroweird/issues)
+- 💬 [Discussions](https://github.com/brennanbrown/retroweird/discussions)
+- ☕ [Support on Ko-fi](https://ko-fi.com/brennan)
+- 💝 [GitHub Sponsors](https://github.com/sponsors/brennanbrown)
+
+---
+
+**Made with 💖 and nostalgia by [Brennan Kenneth Brown](https://brennanbrown.ca)**
+
+A [Berry House](https://berryhouse.ca) project
+
+🌈 **Make the web weird again!** 🌈

@@ -1,0 +1,54 @@
+{
+  "title": "Retroweird",
+  "description": "A maximalist retro blog theme for Eleventy - Make the web weird again!",
+  "url": "https://mentalish.fyi",
+  "author": {
+    "name": "Mentalish",
+    "email": "Wouldn't you like to know. ",
+    "url": "https://brennanbrown.ca",
+    "bio": "Slime Dude, Sewing and gaming",
+    "avatar": "/images/AvatarMent.png",
+    "location": "The Internet",
+    "mood": "nostalgic",
+    "icqNumber": "123-456-789"
+  },
+  "theme": "myspace",
+  "modules": {
+    "guestbook": true,
+    "blogroll": true,
+    "webring": true,
+    "badgeWall": true,
+    "visitorCounter": true,
+    "nowPlaying": true,
+    "adSpace": true,
+    "updates": true,
+    "aboutMe": true,
+    "musicPlayer": true,
+    "cursorEffects": true
+  },
+  "layout": {
+    "sidebar": "left",
+    "showMarquee": true,
+    "backgroundColor": "#003D02",
+    "backgroundImage": "stars.gif",
+    "fontFamily": "Comic Sans MS, cursive"
+  },
+  "social": {
+    "github": "brennanbrown",
+    "Printables": "https://www.printables.com/@MilitiaTech_329475",
+    "email": "NA"
+  },
+  "features": {
+    "rss": true,
+    "webmentions": false,
+    "comments": true,
+    "search": false
+  },
+  "visitorCounter": {
+    "startNumber": 1000,
+    "enabled": true,
+    "style": "led"
+  },
+  "marqueeText": "✨ Welcome to my homepage! ✨ Under construction! ✨ Sign my guestbook! ✨",
+  "buildTime": "2025-10-01"
+}
