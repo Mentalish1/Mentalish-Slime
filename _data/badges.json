@@ -20,6 +20,18 @@
           "image": "https://raw.githubusercontent.com/Polly-Geist/link-stuff/refs/heads/main/pollygeist-button.gif",
           "url": "",
           "alt": "https://pollygeist.com/"
+        },
+        {
+          "title": "Ice Cube Game",
+          "image": "https://icecubegame.com/assets/88x31/icecubegame.gif",
+          "url": "https://icecubegame.com",
+          "alt": "Ice Cube Game" 
+        },
+        {
+         "title": "Lixquid",
+          "image": "https://lixquid.com/88x31.gif",
+          "url": "https://lixquid.com",
+          "alt":  "Lixquid"
         }
       ]
     },
@@ -48,6 +60,18 @@
           "image": "/images/badges/etc/000010.gif",
           "url": "https://polyring.club/",
           "alt": "PolyRing"
+        },
+        {
+          "title": "IndieWeb",
+          "image": "https://indieweb.org/images/9/91/indieweb88x31-retro-gif.gif",
+          "url": "https://indieweb.org/",
+          "alt": "IndieWeb"
+        },
+        {
+           "title": "NeoCities",
+          "image": "https://anlucas.neocities.org/neocities_button.gif",
+          "url": "https://neocities.org/",
+          "alt": "NeoCities"
         }
       ]
     },
@@ -60,17 +84,17 @@
           "url": "",
           "alt": "My Webpage!"
         },
-        {
-          "title": "Powered by Coffee",
-          "image": "/images/badges/coffee.gif",
-          "url": "",
-          "alt": "Powered by Coffee"
+          {
+          "title": "Template",
+          "image": "Template",
+          "url": "Template",
+          "alt": "Template"
         },
         {
-          "title": "No Flash",
-          "image": "/images/badges/noflash.gif",
-          "url": "",
-          "alt": "Flash Free"
+          "title": "Template",
+          "image": "Template",
+          "url": "Template",
+          "alt": "Template"
         }
       ]
     }
